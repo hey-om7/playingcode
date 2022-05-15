@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/playingcode/static/css/main.3199006b.css",
-    "main.js": "/playingcode/static/js/main.bd86357a.js",
-    "static/media/dentolearn-icon.png": "/playingcode/static/media/dentolearn-icon.2284ec60d3efc12c8ce2.png",
-    "static/media/ocean_bg.jpeg": "/playingcode/static/media/ocean_bg.9aeae2f2331706f77756.jpeg",
-    "static/media/playstore.png": "/playingcode/static/media/playstore.3054d16b343900132a54.png",
-    "index.html": "/playingcode/index.html",
-    "main.3199006b.css.map": "/playingcode/static/css/main.3199006b.css.map",
-    "main.bd86357a.js.map": "/playingcode/static/js/main.bd86357a.js.map"
+    "main.css": "/static/css/main.3199006b.css",
+    "main.js": "/static/js/main.c393e325.js",
+    "static/media/dentolearn-icon.png": "/static/media/dentolearn-icon.2284ec60d3efc12c8ce2.png",
+    "static/media/ocean_bg.jpeg": "/static/media/ocean_bg.9aeae2f2331706f77756.jpeg",
+    "static/media/playstore.png": "/static/media/playstore.3054d16b343900132a54.png",
+    "index.html": "/index.html",
+    "main.3199006b.css.map": "/static/css/main.3199006b.css.map",
+    "main.c393e325.js.map": "/static/js/main.c393e325.js.map"
   },
   "entrypoints": [
     "static/css/main.3199006b.css",
-    "static/js/main.bd86357a.js"
+    "static/js/main.c393e325.js"
   ]
 }
