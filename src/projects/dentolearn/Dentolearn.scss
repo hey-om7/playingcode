@@ -12,7 +12,7 @@
         align-items: center;
 
         .leftCol {
-            height: 100%;
+            // height: 100%;
             flex: 1;
             align-items: center;
             display: flex;
@@ -38,19 +38,56 @@
         }
     }
 
-    // .headPart>div {
-    //     .leftCol {
-    //         flex: 1;
-    //         background-color: bisque;
-    //     }
+    @media screen and (max-width: 1200px) {
+        .headPart {
 
-    //     .rightCol {
-    //         flex: 4
-    //     }
-    // }
+            display: flex;
+            /* Stops it from floating */
+            margin: auto;
+            /* Ensures that it is centered */
+            margin-bottom: 25px;
+            /* Space between the stacked elements */
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            // background-color: antiquewhite;
+
+            .leftCol {
+                display: flex;
+                flex-direction: column;
+
+                // background-color: blue;
+                // align-items: center;
+                // justify-content: center;
+                padding-top: 15vmin;
+
+                img {
+
+                    // width: 100%;
+                    // height: 100%;
+                }
+            }
+
+            .rightCol {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: start;
+
+                // background-color: orange;
+            }
+
+        }
+
+
+    }
+
+
 
     .bottomPart {
         flex: 1;
+        align-items: center;
+        justify-content: center;
 
         // background-color: rgb(43, 43, 43);
         h2 {
@@ -67,4 +104,26 @@
         }
     }
 
+    @media screen and (max-width: 1200px) {
+        .bottomPart {
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+
+            // text-align: center;
+            h3 {
+                text-align: center;
+                padding-left: 10vmin;
+                padding-right: 10vmin;
+
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .Dentolearn {
+        height: fit-content;
+    }
 }

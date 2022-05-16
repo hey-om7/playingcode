@@ -33,4 +33,25 @@
         }
     }
 
+    @media screen and (max-width: 1200px) {
+        .ProjectHeading {
+            height: auto;
+            display: flex;
+            /* Stops it from floating */
+            margin: auto;
+            /* Ensures that it is centered */
+            // margin-bottom: 25px;
+            /* Space between the stacked elements */
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            // background-color: antiquewhite;
+            text-align: center;
+
+            .rightCol {
+                padding-bottom: 20px;
+            }
+        }
+    }
+
 }

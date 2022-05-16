@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "./Topbar.scss"
+import hamburgerIcon from "../assets/hamburger.png"
+import TopbarMobile from './TopbarMobile';
 
 export default function Topbar() {
     const [navbar, setNavbar] = useState(false);
@@ -45,6 +47,12 @@ export default function Topbar() {
                         Contact
                     </a>
                 </h2>
+            </div>
+            <div className="hamburger">
+                <img src={hamburgerIcon} alt="" />
+            </div>
+            <div className="sideMenu">
+                {/* <TopbarMobile /> */}
             </div>
 
         </div>

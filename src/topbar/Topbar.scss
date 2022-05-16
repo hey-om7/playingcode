@@ -37,6 +37,28 @@
 
 
     }
+
+    .hamburger {
+        display: none;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .tabs {
+            display: none;
+        }
+
+        align-items: center;
+
+        .hamburger {
+            display: block;
+            padding-right: 15px;
+
+            img {
+                height: 6vmin;
+                width: 6vmin;
+            }
+        }
+    }
 }
 
 .Topbar.active {
