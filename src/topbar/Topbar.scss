@@ -1,0 +1,47 @@
+.Topbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+
+    .spacedTabs {
+        display: flex;
+        flex: 3;
+    }
+
+    .tabs {
+        display: flex;
+        flex: 2;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        // >* {}
+
+        h2 {
+            a {
+                font-weight: 200;
+                color: white;
+                text-decoration: none;
+                text-shadow: 2px 2px 5px #000000;
+            }
+
+            a:hover {
+                // cursor: progress;
+                color: rgb(255, 107, 66);
+                text-shadow: none;
+            }
+        }
+
+
+    }
+}
+
+.Topbar.active {
+    backdrop-filter: blur(10px);
+    background-color: rgba($color: #000000, $alpha: 0.1);
+    // filter: blur(8px);
+    // -webkit-filter: blur(8px);
+}

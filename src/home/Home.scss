@@ -1,0 +1,87 @@
+.Home {
+    // background-color: lightcoral;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    // position: relative;
+
+    .bgImage {
+        height: 100vh;
+        width: 100%;
+
+        object-fit: contain;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        img {
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            filter: brightness(50%)
+        }
+    }
+
+    h1 {
+        text-shadow: 2px 2px 40px #00000059;
+        position: absolute;
+        // z-index: 2;
+        color: white;
+        font-size: 15vmin;
+        -webkit-user-select: none;
+        /* Safari */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* IE10+/Edge */
+        user-select: none;
+        /* Standard */
+    }
+
+    h1:hover {
+        cursor: default;
+    }
+
+    .arrowDownImg {
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+
+        img {
+            width: 10vmin;
+            height: 10vmin;
+        }
+
+        animation: blink 2s ease-in infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 0;
+        }
+
+        25% {
+            opacity: .5;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        75% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: 0;
+        }
+
+
+
+    }
+}

@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+  .bgImage {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  /* text-align: center; */
+  .sections {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+
+
+    height: calc(100vh - 70px);
+    position: relative;
+
+    // >* {
+    //   width: 100%;
+    //   height: calc(100vh - 70px);
+    //   position: relative;
+    //   top: 70px;
+    // }
+  }
+}
