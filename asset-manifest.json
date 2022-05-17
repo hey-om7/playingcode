@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8632f56.css",
-    "main.js": "/static/js/main.04089828.js",
+    "main.css": "/static/css/main.b04fc7da.css",
+    "main.js": "/static/js/main.64b895c2.js",
     "static/media/dentolearn-icon.png": "/static/media/dentolearn-icon.2284ec60d3efc12c8ce2.png",
     "static/media/ocean_bg.jpeg": "/static/media/ocean_bg.9aeae2f2331706f77756.jpeg",
+    "static/media/beautifulTweet_img.png": "/static/media/beautifulTweet_img.86a912c65170aa3e066f.png",
     "static/media/playstore.png": "/static/media/playstore.3054d16b343900132a54.png",
     "index.html": "/index.html",
-    "main.a8632f56.css.map": "/static/css/main.a8632f56.css.map",
-    "main.04089828.js.map": "/static/js/main.04089828.js.map"
+    "main.b04fc7da.css.map": "/static/css/main.b04fc7da.css.map",
+    "main.64b895c2.js.map": "/static/js/main.64b895c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8632f56.css",
-    "static/js/main.04089828.js"
+    "static/css/main.b04fc7da.css",
+    "static/js/main.64b895c2.js"
   ]
 }
